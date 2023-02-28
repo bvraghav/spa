@@ -1,6 +1,44 @@
-# GA UI
+# Single Page Application Boilerplate Code
 
 #### Vite3 + VueJS + Tailwind + FontAwesome + VueRouter + Pinia + VueMeta
+
+
+## SCM Setup
+
+Clone this repositry to `MYDIR`
+```sh
+git clone git@github.com:bvraghav/spa.git MYDIR
+cd MYDIR
+```
+
+Create new repository `MYREPO/MDIR.git`, where `MYREPO`
+is the repository server like Github, Gitlab and so
+forth. Then change the origin as follows.
+
+### Using Emacs (magit) ###
+
+With shortcuts configured:
+```
+C-x g
+M k origin Enter
+M a origin Enter MYREPO/MYDIR.git Enter
+P p
+```
+
+With full command list:
+```
+M-x magit-remote-remove origin Enter
+M-x magit-remote-add origin Enter MYREPO/MYDIR.git Enter
+M-x magit-push-current-to-pushremote
+```
+
+### Using CLI ###
+
+```sh
+git remote remove origin
+git remote add origin MYREPO/MYDIR.git
+git push origin master
+```
 
 
 ## Project Setup
