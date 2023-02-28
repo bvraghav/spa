@@ -78,7 +78,7 @@ page](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use)
 ### Page Meta Tags ###
 
 Use `<metainfo>` inside the template to update; example
-in [`@/views/HomePage.js`](./src/views/HomePage.js),
+in [`@/views/HomePage.vue`](./src/views/HomePage.vue),
 and to format the title, modify
 [`@/App.vue`](./src/App.vue).
 
