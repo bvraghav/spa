@@ -90,8 +90,8 @@ logo in `public` folder, which is statically served.
 
 ## Recommended IDE Setup
 
-Use (Emacs)[https://www.gnu.org/software/emacs/] +
-(BVR's flavour)[https://github.com/bvraghav/dotemacs]
+Use [Emacs](https://www.gnu.org/software/emacs/) +
+[BVR's flavour](https://github.com/bvraghav/dotemacs)
 
 Alternatively, it should be useful to go with the
 official recommendation of VSCode.
