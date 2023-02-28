@@ -1,0 +1,2 @@
+body { @apply min-w-[100vw] min-h-[100vh] }
+#app { @apply min-w-[100vw] min-h-[100vh] }
