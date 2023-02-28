@@ -5,17 +5,15 @@
 
 ## SCM Setup
 
-Clone this repositry to `MYDIR`
-```sh
-git clone git@github.com:bvraghav/spa.git MYDIR
-cd MYDIR
-```
+Clone this repository .
 
 Create new repository `MYREPO/MDIR.git`, where `MYREPO`
 is the repository server like Github, Gitlab and so
 forth. Then change the origin as follows.
 
 ### Using Emacs (magit) ###
+
+Descend to this repository in Dired.
 
 With shortcuts configured:
 ```
@@ -33,6 +31,8 @@ M-x magit-push-current-to-pushremote
 ```
 
 ### Using CLI ###
+
+Descend to this directory in shell/terminal.
 
 ```sh
 git remote remove origin
