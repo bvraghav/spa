@@ -32,7 +32,7 @@ npm run lint
 ### Routes, Layouts and Pages
 
 [`@/router/routes.js`](./src/router/routes.js),
-[`@/views/*{Page,Layout}.js`](./src/views)
+[`@/views/*{Page,Layout}.vue`](./src/views)
 
 `RouterView` is analogous to `slots` except that slots
 are filled in by a parent (or callee), whereas
