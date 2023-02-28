@@ -13,7 +13,17 @@ export default [
           sidebar: () => import('@/views/BaseSidebar.vue'),
           footer: () => import('@/views/BaseFooter.vue'),
         },
-      }
+        props: false,           // there're no props in
+                                // this view
+      },
+      // ----------------------------------------------
+      // Insert path here to create a sub-route that
+      // follows the same layout as BaseLayout.vue
+      // ----------------------------------------------
     ]
   },
+  // ----------------------------------------------
+  // Insert path here to create a route (and its
+  // sub-routes) that demand a bespoke layout.
+  // ----------------------------------------------
 ]
