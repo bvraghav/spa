@@ -19,8 +19,8 @@ onMounted(() => {
   // TODO: do something
 })
 
-useMeta ({
-  title: 'Home Page'
+useMeta ({ // <------------- Update Page Metadata Here!
+  title: 'Home Page',
 })
 </script>
 
